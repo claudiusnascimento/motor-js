@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor JS</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+
+</head>
+<body>
+
+    <div class="pnlMotor hotel">
+        <h4>Hotéis</h4>
+        <div>
+            <label>Destino</label><br/>
+            <input type="text" class="idDestino" /> 
+        </div>
+        <div>
+            <label>Entrada</label>
+            <div><input class="dtIni" placeholder="Entrada" /></div>
+        </div>
+        <div>
+            <label>Saída</label>
+            <div><input class="dtFim" placeholder="Saída" /></div>
+        </div>
+        1
+        <div>
+            <div class="quartoQt">
+                <label>Quartos</label>
+                <div><select></select></div>
+            </div>
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Quarto</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnr">
+                        <label>Senhor</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnrIdade">
+                        <label>Idade</label>
+                        <div class="quartoSnrIdadeSel"><input type="number"/></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label>Cupom</label>
+                <div><input class="nrCupom" placeholder="Digite o cupom" /></div>
+            </div>
+            <div class="pnlBotao"><button type="button">Pesquisar</button></div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="pnlMotor pacoteAereo">
+        <h4>Pacote Aéreo</h4>
+        <div><label>Origem</label><br/> <input type="text" class="idOrigem" /> </div>
+        <div><label>Destino</label><br/> <input type="text" class="idDestino" /> </div>
+        <div>
+            <label>Partida</label>
+            <div><input type="text" class="dtIni" placeholder="Data de partida" /> </div>
+        </div>
+        <div>
+            <label>Retorno</label>
+            <div><input type="text" class="dtFim" placeholder="Data de retorno" /> </div>
+        </div>
+        <div>
+            <div class="quartoQt">
+                <label>Quartos</label>
+                <div><select></select></div>
+            </div>
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Quarto</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnr">
+                        <label>Senhor</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnrIdade">
+                        <label>Idade</label>
+                        <div class="quartoSnrIdadeSel"><input type="number"/></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label>Cupom</label>
+                <div><input class="nrCupom" placeholder="Digite o cupom" /></div>
+            </div>
+            <div class="pnlBotao"><button type="button">Pesquisar</button></div>
+        </div>
+    </div>
+    
+    <br>
+    <div class="pnlMotor pacoteDinamico">
+        <h4>Pacote dinâmico</h4>
+        <div><label>Origem</label><br/> <input type="text" class="idOrigem" /> </div>
+        <div><label>Destino</label><br/> <input type="text" class="idDestino" /> </div>
+        <div>
+            <label>Partida</label>
+            <div><input type="text" class="dtIni" placeholder="Data de partida" /></div>
+        </div>
+        <div>
+            <label>Retorno</label>
+            <div><input type="text" class="dtFim" placeholder="Data de retorno" /></div>
+        </div>
+        <div>
+            <div class="quartoQt">
+                <label>Quartos</label>
+                <div><select></select></div>
+            </div>
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Quarto</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnr">
+                        <label>Senhor</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnrIdade">
+                        <label>Idade</label>
+                        <div class="quartoSnrIdadeSel"><input type="number"/></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label>Cupom</label>
+                <div><input class="nrCupom" placeholder="Digite o cupom" /></div>
+            </div>
+            <div class="pnlBotao"><button type="button">Pesquisar</button></div>
+        </div>
+    </div>
+    <br>
+    <div class="pnlMotor rodoServico">
+        <h4>Rodo+Serviço</h4>
+        <div><label>Origem</label><br/> <input type="text" class="idOrigem" /> </div>
+        <div><label>Destino</label><br/> <input type="text" class="idDestino" /> </div>
+        <div>
+            <label>Partida</label>
+            <div><input type="text" class="dtIni" placeholder="Data de partida" /></div>
+        </div>
+        <div>
+            <div class="quartoQt">Passageiros</div>
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Quarto</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pnlBotao">
+                <button type="button">Pesquisar</button> 
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="pnlMotor rodoHotel">
+        <h4>Rodo+Hotel</h4>
+        <div><label>Origem</label><br/> <input type="text" class="idOrigem" /> </div>
+        <div><label>Destino</label><br/> <input type="text" class="idDestino" /> </div>
+        <div>
+            <label>Partida</label>
+            <div><input type="text" class="dtIni" placeholder="Data de partida" /></div>
+        </div>
+        <div>
+            <div class="quartoQt">
+                <label>Quartos</label>
+                <div><select></select></div>
+            </div>
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Quarto</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pnlBotao">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="pnlMotor pacoteHotel">
+        <h4>Pacote Hotel</h4>
+        <div><label>Destino</label><br/>
+            <input type="text" class="idDestino" />
+        </div>
+        <div>
+            <label>Partida</label>
+            <div><input type="text" class="dtIni" placeholder="Data de partida" /></div>
+        </div>
+        <div>
+            <div class="quartoQt">
+                <label>Quartos</label>
+                <div><select></select></div>
+            </div>
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Quarto</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pnlBotao">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>
+    </div>
+    <div class="pnlMotor aereo">
+        <h4>Passagem</h4>
+        <div class="pnlTpTrechoCheck">
+            <label><input type="radio" name="tpTrechoRb" value="idaVolta" />Ida e volta</label> <label><input type="radio" name="tpTrechoRb" value="ida" />Somente Ida</label> 
+        </div>
+        <div><label>Origem</label><br/>
+            <input type="text" class="idOrigem" />
+        </div>
+        <div><label>Destino</label><br/>
+            <input type="text" class="idDestino" />
+        </div>
+        <div>
+            <label>Partida</label>
+            <div><input type="text" class="dtIni" placeholder="Data de partida" /></div>
+        </div>
+        <div class="pnlDtFim">
+            <label>Retorno</label>
+            <div><input type="text" class="dtFim" placeholder="Data de retorno" /></div>
+        </div>
+        <div>
+            <input type="text" class="quartoConfig" />
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Passageiros</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnr">
+                        <label>Senhor</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnrIdade">
+                        <label>Idade</label>
+                        <div class="quartoSnrIdadeSel"><input type="number"/></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label>Classe do voo:</label>
+                <div>
+                    <select class="idClasse">
+                        <option value="SP">Sem preferencia</option>
+                        <option value="EC" selected="selected">Econômica</option>
+                        <option value="EP">Econômica Premium</option>
+                        <option value="EX">Executiva</option>
+                        <option value="PC">Primeira Classe</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label>Cupom</label>
+                <div><input class="nrCupom" placeholder="Digite o cupom" /></div>
+            </div>
+            <div class="pnlBotao">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>
+    </div>
+    <div class="pnlMotor servico">
+        <h4>Serviço</h4>
+        <div>
+            <label>Destino</label><br/>
+            <input type="text" class="idDestino" /> 
+        </div>
+        <div>
+            <label>Partida</label>
+            <div><input class="dtIni" placeholder="Partida" /></div>
+        </div>
+        <div>
+            <label>Retorno</label>
+            <div><input class="dtFim" placeholder="Retorno" /></div>
+        </div>
+        <div>
+            <input type="text" class="quartoConfig" />
+            <div class="quartoItems">
+                <div class="quartoItem">
+                    <label>Passageiros</label>
+                    <div class="quartoAdt">
+                        <label>Adultos</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnr">
+                        <label>Senhor</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoSnrIdade">
+                        <label>Idade</label>
+                        <div class="quartoSnrIdadeSel"><input type="number"/></div>
+                    </div>
+                    <div class="quartoChd">
+                        <label>Crianças</label>
+                        <div><select></select></div>
+                    </div>
+                    <div class="quartoIdade">
+                        <label>Idade</label>
+                        <div class="quartoIdadeSel"><select></select></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pnlBotao">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://americantravel.infotravel.com.br/b2c/motor/motorv2.js"> </script>
+
+    <script type="text/javascript"> /* <![CDATA[ */
+        var motorBusca = new MotorBusca('F3F84DCBA8B18EB243DED36624D8E1CB', {sg_idioma: 'pt_BR'});
+        
+        motorBusca.motorHotel('.pnlMotor.hotel'); 
+        motorBusca.motorPacoteAereo('.pnlMotor.pacoteAereo'); 
+        motorBusca.motorPacoteDinamico('.pnlMotor.pacoteDinamico'); 
+        motorBusca.motorRodoServico('.pnlMotor.rodoServico'); 
+        motorBusca.motorRodoHotel('.pnlMotor.rodoHotel'); 
+        motorBusca.motorPacoteHotel('.pnlMotor.pacoteHotel'); 
+        motorBusca.motorAereo('.pnlMotor.aereo'); 
+        motorBusca.motorServico('.pnlMotor.servico');
+        /*]]>*/ 
+        
+    </script>
+</body>
+</html>
